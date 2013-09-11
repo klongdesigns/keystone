@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+#login h1 a {background: url(images/logo-login.gif) no-repeat; width: 310px; height: 298px;}
+
+#wp-admin-bar-wp-logo > .ab-item .ab-icon { background-image: url(images/admin-bar-sprite.png); }
+#header-logo {background-image: url(images/wp-logo.png);}
+
+#footer-upgrade, #wp-version-message { display: none; }
+.update-nag { display: none; }
+
+
+

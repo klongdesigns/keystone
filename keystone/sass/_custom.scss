@@ -1,0 +1,16 @@
+// Calculate rems
+@function remCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1rem;
+}
+
+//Mixin to return rems with px fallback
+@mixin rem($style, $pxWidth){
+  #{$style}:$pxWidth;
+  #{$style}:remCalc($pxWidth);
+}
+
+//Variable Overrides
+$row-width: emCalc(960px);
+$column-gutter: emCalc(10px);
+$total-columns: 24;
+$block-grid-elements: 24;

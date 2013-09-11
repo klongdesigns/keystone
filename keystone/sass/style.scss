@@ -1,0 +1,25 @@
+/*!
+Theme Name: 
+Theme URI: http://www.
+Description: Theme files for 
+Version: 1.0
+Author: Chris Klongpayabal	
+Author URI: http://www.klongdesigns.com
+Template: klongdesigns
+*/
+/*variables and font-face goes first */
+
+/*imports*/
+
+@import "compass";
+@import "wpstyle";
+@import "app";
+
+/*if you want to use social media svg icons, uncomment the following */
+/* @import "social"; */
+
+/*Core CSS Goes Here*/
+
+
+/*Media Query call (_mediaqueries.scss) */
+@import "mediaqueries";
