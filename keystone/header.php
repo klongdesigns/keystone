@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 
-	<title><?php wp_title(''); ?>New Feature</title>
+	<title><?php wp_title(''); ?>NF</title>
 
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
